@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sofia Fedorova – Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+
+  <!-- Correct CSS path -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <!-- NAVBAR -->
   <nav class="navbar">
-    <div class="container">
+    <div class="container nav-container">
       <h1 class="logo">Sofia Fedorova</h1>
       <ul class="nav-links">
         <li><a href="#projects">Projects</a></li>
@@ -22,17 +24,17 @@
 
   <!-- HERO -->
   <header class="hero">
-    <div class="container">
-      <h2>Web Developer & Designer</h2>
-      <p>Building clean, modern, responsive web experiences.</p>
+    <div class="container hero-content">
+      <h2 class="hero-title">Web Developer & Designer</h2>
+      <p class="hero-subtitle">Building clean, modern, responsive web experiences.</p>
     </div>
   </header>
 
   <!-- PROJECTS -->
-  <section id="projects" class="container py-5">
+  <section id="projects" class="container section">
     <h2 class="section-title">Projects</h2>
 
-    <h3 class="other-projects-title mt-5">Other Projects</h3>
+    <h3 class="other-projects-title">Other Projects</h3>
 
     <div class="other-project-buttons">
 
@@ -40,8 +42,7 @@
       <a href="https://sofifedorova.github.io/fedorovasofia2111-music_app/"
          target="_blank"
          rel="noopener"
-         class="btn project-btn"
-         aria-label="Open Full Music App Project">
+         class="btn project-btn">
          Open Music App (Frontend)
       </a>
 
@@ -49,8 +50,7 @@
       <a href="https://sofia-music-api.onrender.com"
          target="_blank"
          rel="noopener"
-         class="btn project-btn"
-         aria-label="Open API Project">
+         class="btn project-btn">
          Open API (Backend)
       </a>
 
@@ -58,9 +58,9 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="container py-5">
+  <section id="contact" class="container section">
     <h2 class="section-title">Contact</h2>
-    <p>Email: sofia@example.com</p>
+    <p class="contact-email">Email: sofia@example.com</p>
   </section>
 
   <!-- FOOTER -->
