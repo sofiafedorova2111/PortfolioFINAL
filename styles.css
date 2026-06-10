@@ -96,11 +96,17 @@ h3 {
   color: #9e2a2b;
 }
 
-#designCarousel img {
-  border-radius: 12px;
+#designCarousel .carousel-item img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
   max-height: 600px;
   object-fit: contain;
+  margin: 0 auto;
+  display: block;
 }
+
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -122,9 +128,11 @@ h3 {
 }
 
 #skills img {
-  height: 45px;
-  margin: 10px 20px;
+  height: 45px !important;
+  width: auto !important;
+  object-fit: contain !important;
 }
+
 
 #contact {
   background: var(--blue);
