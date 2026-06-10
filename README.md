@@ -1,5 +1,5 @@
 Date: 06/10/2026
-Class:
+Class: Website Capstone 297W
 Name: Sofia Fedorova
 Project: Final portfolio websites
 
