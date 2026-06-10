@@ -204,53 +204,45 @@ footer {
 /* graphic design html files style*/
 
 /* Project Page Layout */
-.project-wrapper {
-  max-width: 900px;
-  margin: 120px auto 60px;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.project-title {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 3rem;
-  margin-bottom: 30px;
-}
-
-.project-image {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-.project-image img {
-  width: 20%;
-  max-width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
-}
-
-.project-description {
-  font-size: 5rem;
-  margin-bottom: 40px;
-  color: #444;
-}
-
-
-.two-cards {
-  display: flex;
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
   justify-content: center;
   align-items: center;
-  gap: 25px;
-  margin: 40px auto;
-  flex-wrap: wrap;
+  z-index: 9999;
+  padding: 20px;
 }
 
-.two-cards img {
-  width: 45%;
-  max-width: 350px;
+.lightbox-content {
+  background: #fff;
+  padding: 25px;
   border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  animation: zoomIn .3s ease;
+}
+
+.lightbox-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(.6); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.project-thumb img {
+  width: 250px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.project-thumb img:hover {
+  transform: scale(1.03);
 }
