@@ -217,7 +217,7 @@ footer {
   margin-bottom: 30px;
 }
 
-.project-images {
+.project-image {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -225,29 +225,32 @@ footer {
   margin-bottom: 25px;
 }
 
-.project-images img {
-  width: 70%;
-  max-width: 500px;
+.project-image img {
+  width: 20%;
+  max-width: 300px;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
 
 .project-description {
-  font-size: 1.1rem;
+  font-size: 5rem;
   margin-bottom: 40px;
   color: #444;
 }
 
-.back-link {
-  font-size: 1rem;
-  text-decoration: none;
-  color: #333;
-  border: 1px solid #ccc;
-  padding: 8px 16px;
-  border-radius: 6px;
-  transition: 0.2s;
+
+.two-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 40px auto;
+  flex-wrap: wrap;
 }
 
-.back-link:hover {
-  background: #f2f2f2;
+.two-cards img {
+  width: 45%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
