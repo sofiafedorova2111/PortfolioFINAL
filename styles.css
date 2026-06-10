@@ -200,4 +200,19 @@ footer {
   color: var(--light-text);
 }
 
+
+/* graphic design html files style*/
+
+.two-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.two-cards img {
+  width: 45%;
+  border-radius: 10px;
+}
+
+
   
