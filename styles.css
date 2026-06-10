@@ -230,6 +230,18 @@ footer {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+.lightbox-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lightbox-images img {
+  width: 45%;
+  max-width: 300px;
+  border-radius: 10px;
+}
 
 .carousel-lightbox-trigger {
   cursor: pointer;
