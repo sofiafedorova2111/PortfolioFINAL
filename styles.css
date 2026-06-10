@@ -75,7 +75,7 @@ h3{
 }
 
 #intro h2 {
-  text-align: right;
+  text-align: right !important;
 }
 
 #intro p {
@@ -96,6 +96,7 @@ h3{
 
 .mt-3 {
   color: #9e2a2b;
+  
 }
 
 /* CAROUSEL */
