@@ -231,18 +231,6 @@ footer {
   margin-bottom: 20px;
 }
 
-@keyframes zoomIn {
-  from { transform: scale(.6); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-
-.project-thumb img {
-  width: 250px;
-  border-radius: 12px;
+.carousel-lightbox-trigger {
   cursor: pointer;
-  transition: .2s;
-}
-
-.project-thumb img:hover {
-  transform: scale(1.03);
 }
