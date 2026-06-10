@@ -203,6 +203,7 @@ footer {
 
 /* graphic design html files style*/
 
+/* Project Page Layout */
 .project-wrapper {
   max-width: 900px;
   margin: 120px auto 60px;
@@ -250,17 +251,3 @@ footer {
 .back-link:hover {
   background: #f2f2f2;
 }
-
-.two-cards {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-}
-
-.two-cards img {
-  width: 45%;
-  border-radius: 10px;
-}
-
-
-  
