@@ -203,6 +203,54 @@ footer {
 
 /* graphic design html files style*/
 
+.project-wrapper {
+  max-width: 900px;
+  margin: 120px auto 60px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.project-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.project-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.project-images img {
+  width: 70%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.project-description {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.back-link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.back-link:hover {
+  background: #f2f2f2;
+}
+
 .two-cards {
   display: flex;
   gap: 20px;
