@@ -33,7 +33,10 @@ h2 {
   text-align: left !important;
 }
 
-/* NAV */
+h3 {
+  text-align: center !important;
+}
+
 .navbar {
   background: #fff !important;
   padding: 10px 0;
@@ -57,11 +60,6 @@ h2 {
   width: auto;
 }
 
-h3{
-  text-align:center !important;
-}
-
-/* INTRO */
 #intro {
   text-align: center;
   padding: 140px 60px 0 60px;
@@ -96,10 +94,8 @@ h3{
 
 .mt-3 {
   color: #9e2a2b;
-  
 }
 
-/* CAROUSEL */
 #designCarousel img {
   border-radius: 12px;
   max-height: 600px;
@@ -111,13 +107,11 @@ h3{
   filter: invert(1) brightness(0);
 }
 
-/* ABOUT */
 #about p {
   max-width: 650px;
   margin: 0 auto;
 }
 
-/* SKILLS */
 #skills {
   background: var(--lavender);
 }
@@ -132,7 +126,6 @@ h3{
   margin: 10px 20px;
 }
 
-/* CONTACT */
 #contact {
   background: var(--blue);
 }
@@ -156,64 +149,40 @@ h3{
     flex-direction: column;
   }
 }
-  .other-project-buttons {
-    display: flex;
-    gap: 50px;
-    margin-top: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .other-project-buttons .project-btn {
-    flex: 1;
-    max-width: 300px;
-    padding: 18px 20px;
-    font-size: 1.2rem;
-    text-align: center;
-    border-radius: 8px;
-    background: #9e2a2b;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.25s;
-  }
-  
-  .other-project-buttons .project-btn:hover {
-    background: #7d1f22;
-    transform: translateY(-2px);
-  }
-  
 
-
-
-
-.project-btn {
-  padding: 10px 22px;
-  background: #9e2a2b;
-  color: #fff;
-  border-radius: 6px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  transition: 0.25s;
-  position: relative;
-  z-index: 10;
+.other-project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
 
-.project-btn:hover {
+.other-project-buttons .project-btn {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  padding: 18px 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 8px;
+  background: #9e2a2b;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.other-project-buttons .project-btn:hover {
   background: #7d1f22;
   transform: translateY(-2px);
 }
 
-/* FOOTER */
 footer {
   text-align: center;
   padding: 20px 0;
   color: var(--light-text);
 }
 
-
-/* graphic design html files style*/
-
-/* Project Page Layout */
 .lightbox {
   position: fixed;
   inset: 0;
@@ -235,11 +204,6 @@ footer {
   animation: zoomIn .3s ease;
 }
 
-.lightbox-content img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
 .lightbox-images {
   display: flex;
   gap: 20px;
