@@ -1,0 +1,120 @@
+html, body {
+    background-color: #fdf0d5;
+    color: #c1121f;
+    font-family: "Questria", serif;
+}
+
+body {
+    text-align: center;
+}
+/*First Navbar*/
+.navbar {
+    background-color: #fdf0d5 !important;
+}
+
+.nav-link {
+    color: #c1121f;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #053c5e !important;
+    font-size:20px;
+}
+
+.nav-link:visited {
+    color: #c1121f;
+}
+
+h1 {
+    margin-top: 1em;
+    font-size: 4em;
+    font-family: "Italiana", serif;
+}
+
+h2 {
+    color: #053c5e;
+}
+
+.btn {
+    background-color: #c1121f;
+    color: #fdf0d5;
+}
+
+.btn:hover {
+    background-color: #053c5e;
+    color: #fdf0d5;
+}
+
+.card {
+    background-color: #eff6ee;
+    color: #c1121f;
+    margin: 3em;
+    width: 20%;
+    height: auto;
+}
+
+/* Second Navbar*/
+.navbar-brand{
+    color:#053c5e;
+    font-size:25px;
+    font-family:"Italiana", serif;
+ 
+}
+
+.nav-linksecond{
+    color:#c1121f;
+    margin:2em;
+    text-decoration:none;
+    font-size:20px;
+
+}
+
+.nav-linksecond:hover{
+    color:#053c5e;
+    font-size:21px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu{
+    background-color:#fdf0d5;
+}
+
+.dropdown-item{
+    color:#c1121f;
+    background-color:#fdf0d5;
+
+}
+
+.dropdown-item:hover{
+    font-size:20px;
+    background-color:#fdf0d5;
+    color:#053c5e;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+#myCarousel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 1em;
+}
+
+footer h2 {
+    background-color: #c1121f;
+    color: #fdf0d5;
+    padding: 1em;
+    margin-top: 1em;
+}

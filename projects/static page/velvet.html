@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website HW06</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">   
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles3.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="navbar fixed-top bg-body-tertiary">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Deals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <main>
+        <h1>Velvet Veil</h1>
+        <h2>"Glow Naturally, Shine Confidently."</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/facepic.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Importance of skincare</h4>
+                            <p class="card-text">Learning to care for your skin the right way is essential for maintaining its health and vitality.</p>
+                            <a href="#" class="btn">Learn More ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/example.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Our Ingredients</h4>
+                            <p class="card-text">We prioritize nourishing ingredients that are gentle on the skin yet enough to deliver visible results.</p>
+                            <a href="#" class="btn">Learn More ></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/cream1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Bundle for you</h4>
+                            <p class="card-text">Treat the skin to a skincare bundle with a 20% off! Nourish and hydrate with our premium products.</p>
+                            <a href="#" class="btn">Learn More ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <h1>New Collection</h1>
+
+            <div class="carousel-inner">
+                <div class="carousel-item ">
+                    <h2>Rhode pocket blush</h2>
+                    <p>A little blush for a little flush. Our on-the-go cream blush wakes up cheeks and lips with a satiny, diffused flush that melts on smoothly and stays all day.</p>
+                    <img src="images/rhode2.jpg" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item active">
+                    <h2>The Rhode Kit</h2>
+                    <p>Meet your new classics, all bundled up in the rhode bubble bag. Our tried-and-true skincare essentials are formulated for ultimate barrier nourishment, feel dreamy on your skin, and multitask in your routine.</p>
+                    <img src="images/rhode1.jpg" class="d-block w-100" alt="Second slide">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Velvet Veil Inc.</h2>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
