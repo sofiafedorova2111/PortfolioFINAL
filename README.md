@@ -41,7 +41,7 @@ Live Deployment: (https://sofia-music-api.onrender.com)
 
 ---
 
-## Technologies Used
+## Used for this project
 
 - HTML  
 - CSS  
